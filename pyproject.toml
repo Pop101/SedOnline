@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sedonline"
+version = "0.1.0"
+description = "Run sed-filtered get requests"
+authors = ["Leon Leibmann <leon.leibmann@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.3"
+waitress = "^2.1.2"
+pyyaml = "^6.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

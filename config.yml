@@ -1,0 +1,7 @@
+Development: True
+Port: 2034
+Max Filesize: 5_000_000
+Default Headers:
+  Content-Type: application/text
+  Access-Control-Allow-Origin: "*"
+  Access-Control-Allow-Methods: "GET"
